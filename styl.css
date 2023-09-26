@@ -1,0 +1,62 @@
+html{
+    background-image: url("https://plus.unsplash.com/premium_photo-1683309563255-fef9e541cdec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80");
+    background-size: cover;
+}
+body 
+{  
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 140px;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ea46b3;
+    background-color: rgb(255, 255, 255);
+    text-align: top;
+    font-family:'Times New Roman';
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ef1d1d;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type : circle;
+    padding: 0;
+    color: #cf2884;
+    background-color: #ffffff;
+}
+
+li {
+    list-style-type: circle;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #f8077c;
+}
